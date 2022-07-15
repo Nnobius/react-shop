@@ -1,0 +1,28 @@
+header {
+  color: rgba(90, 98, 113, 1);
+  padding: 16px 40px;
+  border-bottom: 1px solid rgba(90, 98, 113, 0.3);
+  user-select: none;
+
+  h3 {
+    color: rgba(124, 179, 66, 1);
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  li {
+    margin-right: 30px;
+
+    padding: 6px;
+    font-size: 16px;
+
+    &:hover {
+      box-shadow: 0 8px 20px rgba(255, 206, 206, 0.3);
+      transform: translateY(-1px);
+      cursor: pointer;
+      border: 1px solid #F8F8F8;
+      border-radius: 7px;
+      transition: 0.2s ease-in-out, transform 0.2s ease-in-out;
+    }
+  }
+}
